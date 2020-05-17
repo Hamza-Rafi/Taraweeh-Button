@@ -2,7 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url(Masjid_Pic.jpg);
+    background-image: url(masjid_BG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .box{
     width: 300px;
