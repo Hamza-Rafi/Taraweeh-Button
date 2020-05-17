@@ -15,6 +15,7 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     background: #474747;
+    box-shadow: 10px 15px 10px #363636;
 }
 .box h1{
     color: rgb(230, 230, 230);
