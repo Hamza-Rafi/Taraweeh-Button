@@ -17,3 +17,4 @@ function resetCounter(){
     // updates the click variable on the browser
     document.getElementById("clicks").innerHTML = clicks;
 }
+

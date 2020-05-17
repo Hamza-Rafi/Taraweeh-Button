@@ -1,27 +1,18 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Taraweeh Button</title>
+        <link rel="stylesheet" type = "text/css" href = "style.css">
+        <script src="button_script.js"></script>
+    </head>
     <body>
-        <head>
-            <title>Taraweeh Button</title>
-            <link rel="stylesheet" type = "text/css" href = "style.css">
-            <script src="button_script.js"></script>
-        </head>
-        <p>
-            <h1>
-                <b>
-                    <u>Taraweeh Button</u>
-                </b>
-            </h1>
-        </p>
-        <p>
-            <button onclick="clickCounter()" type="button">Add Rakats</button>
-            <button onclick="resetCounter()" type="button">Reset</button>
-        </p>
-        <p>
-            <a id="clicks">0</a>/20 rakats
-        </p>
-        <div class = 'home'>
-                <a href='index.html' >Return to Home Page</a>
+        <div class = "box">
+            <h1>Taraweeh Button</h1>
+            <h2 class = "counter-text"><a id="clicks">0</a>/20 rakats</h2>
+            <input type="button" onclick="clickCounter()" value = "Add Rakats">
+            <input type="button" onclick="resetCounter()" value = "Reset">
+            
+            <input type = "button" class = "home-button" onclick="window.location.href = 'index.html';" value ="Return to Home Page">
         </div>
     </body>
 </html>

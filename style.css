@@ -1,25 +1,59 @@
 body {
-    background-color: #a7f2d2;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(Masjid_Pic.jpg);
 }
-h1 {
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 75px;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #474747;
 }
-p, button{
+.box h1{
+    color: rgb(230, 230, 230);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box h3{
+    color: #A8A7A7;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box h3[id = "work-in-progress"]{
+    color: #CC527A;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.box .counter-text, h3[id = "work-in-progress"]{
+    color: #CC527A;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.box input[type = "button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
     text-align: center;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #E8175D;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
 }
-.home {
-    font-size: 25px;
-    text-align: center;
+.box input[type = "button"]:hover{
+    width: 240px;
+    background: #363636;
 }
-#tagline {
-    font-size: 25px;
-}
-#about {
-    font-size: 30px;
-    text-align: center;
+.box input[type = "button"]:active{
+    background: #CC527A;
+    width: 230px;
 }
